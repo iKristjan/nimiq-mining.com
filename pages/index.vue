@@ -181,7 +181,9 @@
             <strong>Estimated earnings</strong>
           </div>
           <b-card-body class="position-relative text-center">
-            <nimiq-loader v-if="!override && !recentData"/>
+            <no-ssr>
+              <nimiq-loader v-if="!override && !recentData"/>
+            </no-ssr>
 
             <div v-show="!usingPool">
               <p class="mb-0">1 block every {{ results.solo }}
