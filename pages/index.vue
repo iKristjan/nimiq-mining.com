@@ -253,7 +253,7 @@
     data() {
       return {
         title: 'Nimiq Mining Calculator',
-        description: 'Mining calculator for Nimiq (NIM) cryptocurrency. Discover your your estimated earnings in solo or pool mining using real-time data from blockchain.',
+        description: 'Mining calculator for Nimiq (NIM) cryptocurrency. Discover your estimated earnings in solo or pool mining using real-time data from blockchain.',
         recentData: false
       }
     },
